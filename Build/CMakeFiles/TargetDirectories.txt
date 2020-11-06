@@ -1,3 +1,0 @@
-/home/pi/PJ_RPI/Examples/ioLogging/Build/CMakeFiles/rebuild_cache.dir
-/home/pi/PJ_RPI/Examples/ioLogging/Build/CMakeFiles/ioLogging.dir
-/home/pi/PJ_RPI/Examples/ioLogging/Build/CMakeFiles/edit_cache.dir
