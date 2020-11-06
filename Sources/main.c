@@ -9,8 +9,8 @@ int gpioArray[27];
 
 int main()
 {
-	MYSQL *con = mysql_init(NULL);
 	// Initiation of a connection handle structure
+	MYSQL *con = mysql_init(NULL);
 	if (con == NULL)
   	{
 		fprintf(stderr, "%s\n", mysql_error(con));
@@ -53,8 +53,6 @@ int main()
 			gpioArray[x-1] = value;
 		}
 	}
-
   	mysql_close(con);
 	return 0;	
-
 }

@@ -12,6 +12,7 @@ link_directories(${LIBMYSQLCLIENT_LIBRARY_DIRS})
  
 add_executable(ioLogging main.c)
 target_link_libraries(ioLogging PJ_RPI)
+
 target_include_directories(ioLogging PRIVATE ${LIBMYSQLCLIENT_INCLUDE_DIRS})
 target_link_libraries(ioLogging PRIVATE ${LIBMYSQLCLIENT_LIBRARIES})
 
